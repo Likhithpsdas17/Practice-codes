@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style = "width: 200px; height: 200px; background-color: lightblue;"><h3>Learning DOM</h3>
+    </div>
+    <script>
+    document.querySelector("div").onmouseover=function() {
+        document.querySelector("div").innerHTML="Manupulating DOM";
+    }
+    document.querySelector("div").onmouseout= function(){
+        document.querySelector("div").style.backgroundColor="lightblue";
+    }
+    
+    </script>
+</body>
+</html> 

@@ -1,0 +1,49 @@
+.parent{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 10px;
+}
+
+.child{
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.Box-1 {
+    grid-row: span 3;
+    height: auto;
+    background-color: lightblue;
+}
+
+.Box-2 {
+    grid-column: span 2;
+    width: 360px;
+    background-color: lightgreen;
+}
+
+.Box-3 {
+    background-color: lightcoral;
+}
+
+.Box-4 {
+    background-color: rgb(108, 86, 234);
+}
+
+.Box-5 {
+    background-color: rgb(197, 38, 131);
+}
+
+.Box-6{
+    grid-row:span 2;
+    height: auto;
+    background-color: lightgoldenrodyellow;
+}
+
+.Box-7 {
+    background-color: rgb(126, 6, 6);
+}
+
+.Box-8 {
+    background-color: rgb(6, 126, 44);
+}
